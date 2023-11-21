@@ -1,4 +1,5 @@
-let vDOM: { id: number; title: string; description: string }[] = []; // Our initial vDOM is an empty array
+// Our initial vDOM is an empty array
+let vDOM: { id: number; title: string; description: string }[] = []; 
 
 function createDomElements() {
   const parentElement = document.getElementById("mainArea");
@@ -8,7 +9,7 @@ function createDomElements() {
     console.error("Parent element not found.");
     return;
   }
-  
+
   const currentChildren = Array.from(parentElement.children) as HTMLElement[];
 
   // just counting
@@ -87,8 +88,8 @@ window.setInterval(() => {
   const todos: { title: string; description: string; id: number }[] = [];
   for (let i = 0; i < Math.floor(Math.random() * 100); i++) {
     todos.push({
-      title: "Go to gym",
-      description: "Go to gym from 5",
+      title: "Go to gym -",
+      description: " Hit chest today   ",
       id: i + 1,
     });
   }
