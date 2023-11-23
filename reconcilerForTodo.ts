@@ -89,7 +89,7 @@ window.setInterval(() => {
   for (let i = 0; i < Math.floor(Math.random() * 100); i++) {
     todos.push({
       title: "Go to gym -",
-      description: " Hit chest today   ",
+      description: " Hit chest today",
       id: i + 1,
     });
   }
