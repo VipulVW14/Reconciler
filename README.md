@@ -18,12 +18,13 @@ A "reconciler" refers to a component responsible for managing the process of upd
 
 To modify the reconciler or add new features, follow these steps:
 
-1. Make changes to the `reconciler.ts` file.
-2. Compile the TypeScript code to JavaScript:
+1. Clone the repository.
+2. Make changes to the `reconcilerForTodo.ts` file.
+3. Compile the TypeScript code to JavaScript:
 
    ```bash
-   tsc reconciler.ts
+   tsc reconcilerForTodo.ts
    ```
 
-3. Open `index.html` in your browser to see the updated reconciler in action.
+4. Open `dist/index.html` in your browser to see the updated reconciler in action.
  

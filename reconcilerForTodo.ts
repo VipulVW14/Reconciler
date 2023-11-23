@@ -86,7 +86,7 @@ function updateVirtualDom(data: { title: string; description: string; id: number
 
 window.setInterval(() => {
   const todos: { title: string; description: string; id: number }[] = [];
-  for (let i = 0; i < Math.floor(Math.random() * 100); i++) {
+  for (let i = 0; i < Math.floor(Math.random() * 169); i++) {
     todos.push({
       title: "Go to gym -",
       description: " Hit chest today",
@@ -94,7 +94,7 @@ window.setInterval(() => {
     });
   }
   updateVirtualDom(todos);
-}, 5000); // for pushing in batch
+}, 1000); // for pushing in batch
 
 window.setInterval(() => {
   createDomElements();
